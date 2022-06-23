@@ -1,0 +1,95 @@
+body{
+    background-color:burlywood;
+
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    background-color: whitesmoke;
+    padding: 50px;
+    border-radius: 25px;
+    color:burlywood;
+
+}
+.container-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 10px
+}
+.compScore
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.yourScore
+{
+    display: flex;
+    flex-direction: row;
+    gap: 47px;
+}
+.btn
+{
+    margin-top: 25px;
+    
+}
+#rock
+{
+        background-color: rgb(192, 179, 179);
+        color: black;
+        border: 2px solid gray; 
+        border-radius: 25px;
+        padding: 25px;
+        transition-duration: 0.4s;
+        font-weight: bold;
+}
+#rock:hover
+{
+    background-color: rgb(82, 79, 79);
+    color: white;
+}
+#scissor
+{
+        background-color: rgb(235, 147, 147);
+        color: black;
+        border: 2px solid red; 
+        border-radius: 25px;
+        padding: 25px;
+        transition-duration: 0.4s;
+        font-weight: bold;
+}
+#scissor:hover
+{
+    background-color: red;
+    color: white;
+}
+#paper
+{
+        background-color: white;
+        color: black;
+        border: 2px solid rgba(0, 0, 255, 0.37); /* Green */
+        border-radius: 25px;
+        padding: 25px;
+        transition-duration: 0.4s;
+        font-weight: bold;
+      
+}
+#paper:hover
+{
+    background-color: rgba(0, 0, 255, 0.438);
+    color: white;
+}
+#head-main
+{
+    color: white;
+}
+.result
+{
+    color: white;
+    font-size: 25px;
+}
